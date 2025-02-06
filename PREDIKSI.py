@@ -5,7 +5,7 @@ import streamlit as st
 from statsmodels.tsa.holtwinters import SimpleExpSmoothing, ExponentialSmoothing
 
 # 1. Upload Excel file
-st.title("Prediksi Harga Beras Menggunakan Berbagai Metode Moving Average & Eksponential Smoothing ")
+st.title(" 🌾Prediksi Harga Beras Menggunakan Berbagai Metode Moving Average & Eksponential Smoothing 🌾")
 uploaded_file = st.file_uploader("Unggah file Excel", type=["xlsx"])
 
 if uploaded_file is not None:
